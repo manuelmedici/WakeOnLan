@@ -27,7 +27,7 @@ def reply(update, context):
             update.message.reply_text("ok accendo dario...")
         elif "manuel" in testo:
             update.message.reply_text("ok accendo manuel...")
-            #send_magic_packet("18.26.49.11.64.a3", interface="xxx.xxx.xxx.xxx")
+            #send_magic_packet("ff.ff.ff.ff.ff.ff", interface="xxx.xxx.xxx.xxx")
 
 
 dispatcher.add_handler(CommandHandler('start', start))
